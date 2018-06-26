@@ -9,8 +9,6 @@ export default (app: Server) => {
         'user'
     ]
         .forEach(res => {
-            console.log('setting up', res);
-
             let controllers;
             try {
                 controllers = require(`./${res}`);
