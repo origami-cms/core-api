@@ -5,6 +5,10 @@
   "main": "build/index.js",
   "author": "Tristan Matthias <hello@tristanmathias.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/origami-cms/core-api"
+  },
   "scripts": {
     "lint": "tslint -p . --fix",
     "watch": "tsc --watch",
