@@ -1,6 +1,6 @@
 {
   "name": "origami-plugin-core-api",
-  "version": "0.0.3-alpha.0",
+  "version": "0.0.3-alpha.1",
   "description": "Origami plugin for the core API, routes, controllers and models",
   "main": "build/index.js",
   "author": "Tristan Matthias <hello@tristanmathias.com>",
