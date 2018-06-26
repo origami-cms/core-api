@@ -1,0 +1,25 @@
+{
+  "name": "origami-plugin-core-api",
+  "version": "0.0.1",
+  "description": "Origami plugin for the core API, routes, controllers and models",
+  "main": "build/index.js",
+  "author": "Tristan Matthias <hello@tristanmathias.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint -p . --fix",
+    "watch": "tsc --watch",
+    "clean": "rm -rf build/",
+    "build": "yarn clean; tsc"
+  },
+  "devDependencies": {
+    "tslint": "^5.10.0",
+    "tslint-config-origami": "^1.0.3",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@types/request-promise-native": "^1.0.15",
+    "origami-core-lib": "^0.3.7",
+    "origami-core-server": "^0.5.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
