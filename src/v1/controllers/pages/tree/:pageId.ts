@@ -1,4 +1,4 @@
-import {Route} from 'origami-core-server';
+import {Route} from 'origami-core-lib';
 
 const r = new Route('/api/v1/pages/tree/:pageId');
 module.exports = r;

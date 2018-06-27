@@ -1,6 +1,6 @@
 import path from 'path';
-import Server, {Route} from 'origami-core-server';
-import {auth} from 'origami-core-lib';
+import Server from 'origami-core-server';
+import {auth, Route} from 'origami-core-lib';
 import resources from './v1/resources';
 
 module.exports = async(app: Server, options: any) => {

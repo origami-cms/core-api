@@ -1,4 +1,4 @@
-import {Route} from 'origami-core-server';
+import {Route} from 'origami-core-lib';
 import * as NPM from '../../../lib/npm';
 
 const r = new Route('/api/v1/themes/installed');

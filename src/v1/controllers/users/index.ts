@@ -1,5 +1,4 @@
-import {Route} from 'origami-core-server';
-import {auth} from 'origami-core-lib';
+import {auth, Route} from 'origami-core-lib';
 
 const r = new Route('/api/v1/users');
 module.exports = r;
