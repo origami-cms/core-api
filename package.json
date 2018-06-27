@@ -24,6 +24,7 @@
     "@types/request-promise-native": "^1.0.15",
     "npm-programmatic": "^0.0.10",
     "origami-core-lib": "^0.3.9",
+    "origami-plugin-auth": "^1.0.0",
     "request": "^2.87.0",
     "request-promise-native": "^1.0.5"
   }
