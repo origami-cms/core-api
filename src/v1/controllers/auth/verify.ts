@@ -1,4 +1,4 @@
-import {Auth} from 'origami-core-server';
+import {auth as authMW} from 'origami-plugin-auth';
 import {auth, Route} from 'origami-core-lib';
 
 const r = new Route('/api/v1/auth/verify');
@@ -10,7 +10,7 @@ module.exports = r;
 */
 r
     .position('store')
-    .use(Auth)
+    .use(authMW)
     .get(async(req, res, next) => {
         // @ts-ignore
         const existing = auth.jwtVerify(req.jwt.token, req.app.get('secret'));

@@ -1,7 +1,6 @@
 import * as models from '../models';
-import Server from 'origami-core-server';
 
-export default (app: Server) => {
+export default (app: any) => {
     [
         'page',
         'setting',
