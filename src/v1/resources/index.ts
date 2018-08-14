@@ -2,7 +2,6 @@ import * as models from '../models';
 
 export default (app: any) => {
     [
-        'page',
         'setting',
         'theme',
         'user'
