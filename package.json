@@ -18,13 +18,13 @@
   "devDependencies": {
     "tslint": "^5.10.0",
     "tslint-config-origami": "^1.0.3",
-    "typescript": "^2.9.2"
+    "typescript": "^2.9.2",
+    "@types/request-promise-native": "^1.0.15"
   },
   "dependencies": {
-    "@types/request-promise-native": "^1.0.15",
     "npm-programmatic": "^0.0.10",
-    "origami-core-lib": "^0.3.11",
-    "origami-plugin-auth": "^1.0.0",
+    "origami-core-lib": "^0.3.13-alpha.7",
+    "origami-plugin-auth": "^1.0.2-alpha.1",
     "request": "^2.87.0",
     "request-promise-native": "^1.0.5"
   }
